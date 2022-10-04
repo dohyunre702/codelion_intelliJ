@@ -1,3 +1,5 @@
+package codeupAlgo;
+
 import java.util.Scanner;
 
 public class OddEven {
