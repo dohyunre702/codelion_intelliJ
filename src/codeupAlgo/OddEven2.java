@@ -1,7 +1,8 @@
 package codeupAlgo;
 
 import java.util.Scanner;
-
+// 다른 방법1. 삼항연산자
+// 다른 방법2. 함수 활용해 보기
 public class OddEven2 {
     public static void main(String[] args) {
 
