@@ -29,6 +29,6 @@ public class Calculator {
         } catch (ArithmeticException e) {
             System.out.println("0으로 나눌 수 없습니다");
         }
-        System.out.println(a/b);
+        System.out.println(result);
     }
 }
