@@ -1,5 +1,5 @@
 package week3;
-
+//Random계산기 만들기
 public class RandomCalculatorMe {
 
     private int a;
