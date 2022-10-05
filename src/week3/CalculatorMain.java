@@ -1,5 +1,5 @@
 package week3;
-
+//Calculator, CalculatorMain 분리 예제
 public class CalculatorMain {
     public static void main(String[] args){
         int a = 10;
