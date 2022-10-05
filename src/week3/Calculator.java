@@ -1,5 +1,5 @@
 package week3;
-//Calculator, CalculatorMain 분리 예제
+//Calculator, CalculatorMain 분리 예제.
 public class Calculator {
     private int a;
     private int b;
