@@ -1,26 +1,34 @@
 package week3;
 //Calculator, CalculatorMain 분리 예제
 public class Calculator {
+    private int a;
+    private int b;
+    //생성자 추가 단축키 alt + insert
 
-    public static int plus(int a, int b) {
-        return a + b;
+    public Calculator(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
-    public static int minus(int a, int b) {
-        return a - b;
+    public void plus() {
+        System.out.println(a+b);
     }
 
-    public static int multiple(int a, int b) {
-        return a * b;
+    public void minus() {
+        System.out.println(a-b);
     }
 
-    public static double divide(int a, int b) {
+    public void multiple() {
+        System.out.println(a*b);
+    }
+
+    public void divide() {
         double result = 0;
         try {
             result = (double) a / b;
         } catch (ArithmeticException e) {
             System.out.println("0으로 나눌 수 없습니다");
         }
-        return result;
+        System.out.println(a/b);
     }
 }
