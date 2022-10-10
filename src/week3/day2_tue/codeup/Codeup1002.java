@@ -1,9 +1,9 @@
-package week3.day2_tue.Codeup;
+package week3.day2_tue.codeup;
 
-public class Codeup1004 {
+public class Codeup1002 {
     public static void main(String[] args) {
         String a = "Hello";
         String b = "World";
-        System.out.printf("\'%s\'", a);
+        System.out.printf("%s %s", a, b);
     }
 }

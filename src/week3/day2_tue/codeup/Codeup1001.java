@@ -1,4 +1,4 @@
-package week3.day2_tue.Codeup;
+package week3.day2_tue.codeup;
 
 public class Codeup1001 {
     public static void main(String[] args) {

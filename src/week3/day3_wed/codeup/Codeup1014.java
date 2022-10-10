@@ -1,13 +1,15 @@
-package week3.day3_wed.Codeup;
+package week3.day3_wed.codeup;
 
 import java.util.Scanner;
 
-public class Codeup1011 {
+public class Codeup1014 {
     public static void main(String[] args) {
-        char a;
+        char a, b;
         Scanner sc = new Scanner(System.in);
 
         a = sc.next().charAt(0);
-        System.out.println(a);
+        b = sc.next().charAt(0);
+
+        System.out.printf("%s %s", b, a);
     }
 }
