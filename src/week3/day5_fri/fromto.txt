@@ -1,0 +1,4 @@
+what?
+
+//list<string>을 지정한 파일에 write
+public void write(List<String>)
