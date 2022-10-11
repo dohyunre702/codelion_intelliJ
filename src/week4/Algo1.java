@@ -3,9 +3,10 @@ package week4;
 
 import java.util.*;
 
+// string > int > string
 //런타임 에러
 public class Algo1 {
-    public int solution(int n) {
+    public int solution1(int n) {
         int answer = 0;
         // 숫자를 문자열로 변환
         String str = Integer.toString(n);
@@ -21,4 +22,18 @@ public class Algo1 {
         answer = num1 + num2 + num3;
         return answer;
     }
+
+    //새 풀이 (내가 푼 것)
+    public int solution2(int n) {
+        int result = 0;
+        int sum = 0;
+
+        while(n > 0) {
+            result = n % 10;
+            sum += result;
+            n = n / 10; //다시 while 문으로 들어가야 하는 n
+        }
+        return sum;
+    }
+
 }
