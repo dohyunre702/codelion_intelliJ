@@ -1,4 +1,4 @@
-package week4;
+package week4.day2_tue;
 //프로그래머스 자릿수더하기
 
 import java.util.*;

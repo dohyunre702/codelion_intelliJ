@@ -1,4 +1,4 @@
-package week4;
+package week4.day2_tue;
 import java.util.Scanner;
 //오류체크 필요
 public class Codeup1278 {

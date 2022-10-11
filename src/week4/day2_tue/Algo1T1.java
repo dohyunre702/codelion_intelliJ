@@ -1,4 +1,4 @@
-package week4;
+package week4.day2_tue;
 
 public class Algo1T1 { //풀이
     // string > int > string 가는 건 좋은 생각이 아니다.
