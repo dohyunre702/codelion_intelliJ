@@ -26,7 +26,7 @@ public class BubbleSort2 {
 
         BubbleSort2 try2 = new BubbleSort2();
         int[] result = try2.sort(arr1, 0);
-        result = try2.sort(new int[]{2,7,3,9,28,11}, 0);
+        result = try2.sort(new int[]{2,7,3,9,28,11}, 1);
         System.out.println(Arrays.toString(result));
 
         /* = Arrays.toString(result));
