@@ -28,5 +28,4 @@ public class BubbleSort1 {
             System.out.print(arr1[i]+",");
         }
     }
-
 }
