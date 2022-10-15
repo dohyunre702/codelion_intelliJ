@@ -2,7 +2,7 @@ package week3.practice.dateTimeFormatting;
 //parse(String source) 활용
 import java.text.*;
 
-public class MessageFormateEx3 {
+public class MessageFormatEx3 {
     public static void main(String[] args) throws Exception { //parse 메소드 사용하므올 예외 던져줌
         String[] data = {
                 "INSERT INTO CUST_INFO VALUES('이자바','02-234-1234',27,'07-09');",
