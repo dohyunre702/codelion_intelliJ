@@ -1,6 +1,6 @@
 package week3.practice.dataproject;
 
-
+//전입전출 값전달
 public class PopulationMove {
     private int fromSido; //전입
     private int toSido; //전출
