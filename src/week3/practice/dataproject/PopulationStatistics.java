@@ -8,13 +8,10 @@ public class PopulationStatistics {
 
     public PopulationMove parse(String data) {
         int fromSido = 0, toSido = 0;
-
+        //생성자 오버로딩으로 바로 매개변수를 받는 게 가능해짐
+        //split()메소드로 쪼개어진 문자열을 > int로 변환
         String[] split = data.split(",");
-
-        fromSido = Integer.parseInt(split[0]);
-        toSido = Integer.parseInt(split[6]);
-
-        return new PopulationMove(fromSido, toSido);
+        return new PopulationMove(split[0], split[6]);
     }
 
     public void readByLine(String filename) {//에러를 try-catch로 처리
